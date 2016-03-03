@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="AttachingMultiple.cs" />
     <Compile Include="Helpers\PeopleHelper.cs" />
+    <Compile Include="Helpers\StringExtensions.cs" />
     <Compile Include="Helpers\TransactionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
