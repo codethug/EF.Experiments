@@ -64,16 +64,21 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="AttachingMultiple.cs" />
+    <Compile Include="AttachingMultipleTests.cs" />
+    <Compile Include="Helpers\AddressHelper.cs" />
+    <Compile Include="Helpers\CustomerHelper.cs" />
     <Compile Include="Helpers\PeopleHelper.cs" />
     <Compile Include="Helpers\StringExtensions.cs" />
     <Compile Include="Helpers\TransactionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubCollectionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EF.Data\EF.Data.csproj">

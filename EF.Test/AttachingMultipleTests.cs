@@ -14,7 +14,7 @@ using System.Text.RegularExpressions;
 namespace EF.Test
 {
     [TestClass]
-    public class AttachingMultiple : TransactionTest
+    public class AttachingMultipleTests : TransactionTest
     {
         [TestMethod]
         public void AttachingEntityWithSameRelatedEntityTwice_ShouldThrowException()

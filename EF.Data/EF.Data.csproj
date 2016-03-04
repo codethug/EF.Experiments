@@ -50,7 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\Context.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Child.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Parent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
