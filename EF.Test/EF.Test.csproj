@@ -78,6 +78,7 @@
     <Compile Include="Helpers\StringExtensions.cs" />
     <Compile Include="Helpers\TransactionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProxyMonitoringTests.cs" />
     <Compile Include="SubCollectionTests.cs" />
   </ItemGroup>
   <ItemGroup>

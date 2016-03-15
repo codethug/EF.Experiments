@@ -11,9 +11,9 @@ namespace EF.Data.Models
         public string Name { get; set; }
         public int? Parent1Id { get; set; }
         [ForeignKey("Parent1Id")]
-        public Parent Parent1 { get; set; }
+        public virtual Parent Parent1 { get; set; }
         public int? Parent2Id { get; set; }
         [ForeignKey("Parent2Id")]
-        public Parent Parent2 { get; set; }
+        public virtual Parent Parent2 { get; set; }
     }
 }
